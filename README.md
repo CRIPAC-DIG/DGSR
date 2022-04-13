@@ -25,7 +25,7 @@ The detailed commands can be found in ```{dataset}.sh```
 
 
 ## Cite
-
+If you want to use our codes in your research, please cite:
 ```
 @ARTICLE{9714053,
   author={Zhang, Mengqi and Wu, Shu and Yu, Xueli and Liu, Qiang and Wang, Liang},
