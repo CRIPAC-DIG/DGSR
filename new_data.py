@@ -113,11 +113,11 @@ def generate_user(user, data, graph, item_max_length, user_max_length, train_pat
                 save_graphs(train_path+ '/' + str(user) + '/'+ str(user) + '_' + str(j) + '.bin', fin_graph,
                             {'user': torch.tensor([user]), 'target': torch.tensor([target]), 'u_alis':u_alis, 'last_alis': last_alis})
                 train_num += 1
-            if j == split_point-1-2:
+            if j == split_point-1-1:
                 save_graphs(val_path + '/' + str(user) + '/' + str(user) + '_' + str(j) + '.bin', fin_graph,
                             {'user': torch.tensor([user]), 'target': torch.tensor([target]), 'u_alis': u_alis,
                              'last_alis': last_alis})
-            else:
+            if j == split_point -1:
                 save_graphs(test_path + '/' + str(user) + '/' + str(user) + '_' + str(j) + '.bin', fin_graph,
                             {'user': torch.tensor([user]), 'target': torch.tensor([target]), 'u_alis':u_alis, 'last_alis': last_alis})
                 test_num += 1
