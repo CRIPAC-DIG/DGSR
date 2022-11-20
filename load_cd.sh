@@ -4,6 +4,6 @@ nohup  python -u  new_data.py \
  --job=10 \
  --item_max_length=50 \
  --user_max_length=50 \
- --k_hop=2 \
+ --k_hop=3 \
  >./results/cd_data&
 

@@ -12,7 +12,7 @@
  --batchSize=50 \
  --layer_num=3 \
  --lr=0.001 \
- --l2=0.00001 \
+ --l2=0.0001 \
  --item_max_length=50 \
  --user_max_length=50 \
  --record \
