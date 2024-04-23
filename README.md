@@ -1,13 +1,10 @@
 # DGSR
-The code and dataset for our TKDE 2022 paper: Dynamic Graph Neural Networks for Sequential Recommendation (https://ieeexplore.ieee.org/abstract/document/9714053). We have implemented our methods in Pytorch.
 
-## Dependencies
+<img src="dgsr.png" alt="model" style="zoom: 50%;" />
 
-- Python 3.6
-- torch 1.7.1
-- dgl 0.7.2
+This is the code for the TKDE 2022 Paper: [Dynamic Graph Neural Networks for Sequential Recommendation](https://ieeexplore.ieee.org/abstract/document/9714053).
 
-## Usage 
+## Usage
 
 ### Generate data
 
@@ -23,9 +20,16 @@ Then you can run the file ```new_main.py``` to train and test our model.
 The detailed commands can be found in ```{dataset}.sh```
 
 
+## Requirements
 
-## Cite
-If you want to use our codes in your research, please cite:
+- Python 3.6
+- torch 1.7.1
+- dgl 0.7.2
+
+## Citation
+
+Please cite our paper if you use the code:
+
 ```
 @ARTICLE{9714053,
   author={Zhang, Mengqi and Wu, Shu and Yu, Xueli and Liu, Qiang and Wang, Liang},
@@ -37,3 +41,4 @@ If you want to use our codes in your research, please cite:
   pages={1-1},
   doi={10.1109/TKDE.2022.3151618}}
 ```
+
